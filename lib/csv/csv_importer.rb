@@ -24,9 +24,3 @@ class CsvImporter < Importer
     	array
 	end
 end
-=begin
-end
-importer = CsvImporter.new
-contacts = importer.import(csv_file: 'contacts.csv')
-    puts contacts
-=end
